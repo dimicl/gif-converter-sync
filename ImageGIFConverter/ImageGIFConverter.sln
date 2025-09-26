@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageGIFConverter", "ImageGIFConverter\ImageGIFConverter.csproj", "{C0A9E95E-500C-4492-8517-D29926259BAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0A9E95E-500C-4492-8517-D29926259BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0A9E95E-500C-4492-8517-D29926259BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0A9E95E-500C-4492-8517-D29926259BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0A9E95E-500C-4492-8517-D29926259BAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5FDE5293-9D29-473E-9B59-DAF535FF3F01}
+	EndGlobalSection
+EndGlobal
