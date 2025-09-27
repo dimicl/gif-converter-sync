@@ -1,0 +1,5 @@
+# Visual Studio privremeni fajlovi
+.vs/
+*.user
+*.suo
+*.vsidx

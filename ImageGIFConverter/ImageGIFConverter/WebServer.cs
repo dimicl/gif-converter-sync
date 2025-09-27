@@ -15,14 +15,16 @@ namespace ImageGIF
         private readonly string _prefix;
         private readonly string _rootDir;
         private HttpListener? _listener;
-        private readonly GIFService _gifService = new GIFService();
-        private readonly Cache _cache = new Cache();
+        private readonly GIFService _gifService;
+        private readonly Cache _cache;
 
         public WebServer(string prefix, string rootDir)
         {
             _prefix = prefix;
             _rootDir = rootDir;
             Directory.CreateDirectory(_rootDir);
+            _gifService = new GIFService();
+            _cache = new Cache();
         }
 
         public void Start()
@@ -65,14 +67,14 @@ namespace ImageGIF
 
             if (request.HttpMethod != "GET")
             {
-                SendError(response, 405, "Dozvoljen je samo GET");
+                Respond(response, 405, "Dozvoljen je samo GET");
                 return;
             }
 
             string relativePath = request.Url!.AbsolutePath.TrimStart('/');
             if (string.IsNullOrEmpty(relativePath))
             {
-                SendError(response, 400, "Morate navesti ime fajla");
+                Respond(response, 400, "Morate navesti ime fajla");
                 return;
             }
 
@@ -81,17 +83,14 @@ namespace ImageGIF
 
             if (!File.Exists(filePath))
             {
-                SendError(response, 404, "Fajl nije pronadjen");
+                Respond(response, 404, "Fajl nije pronadjen");
                 return;
             }
 
             if(_cache.TryGet(filePath, out var cached))
             {
-                Console.WriteLine($"[CACHE] {relativePath}");
-                response.StatusCode = cached.StatusCode;
-                response.ContentType = cached.ContentType;
-                response.OutputStream.Write(cached.Body, 0, cached.Body.Length);
-                response.OutputStream.Close();
+                Console.WriteLine($"[CACHE] {relativePath}");                
+                WriteResponse(response, cached.StatusCode, cached.ContentType, cached.Body);
                 return;
 
             }
@@ -103,31 +102,35 @@ namespace ImageGIF
                 byte[] gifBytes = ms.ToArray();
 
                 _cache.Set(filePath, 200, "image/gif", gifBytes);
-
-                response.StatusCode = 200;
-                response.ContentType = "image/gif";
-                response.OutputStream.Write(gifBytes, 0, gifBytes.Length);
+                
+                WriteResponse(response, 200, "image/gif", gifBytes);
                 Console.WriteLine($"[OK] Procesuirano {relativePath} kao GIF");
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Greska: {ex.Message}");
-
-                SendError(response, 500, "Greska prilikom proceusiranja");
-            }
-            finally
-            {
-                response.OutputStream.Close();
-            }
+                Respond(response, 500, "Greska prilikom proceusiranja");
+            }            
         }
 
-        private void SendError(HttpListenerResponse response, int code, string message)
+        private void Respond(HttpListenerResponse response, int code, string message)
+        {
+            byte[] buf = Encoding.UTF8.GetBytes(message ?? "");
+            WriteResponse(response, code, "text/plain; charset=utf-8", buf);
+        }
+
+        private void WriteResponse(HttpListenerResponse response, int code, string contentType, byte[] body)
         {
             response.StatusCode = code;
-            response.ContentType = "text/plain; charset=utf-8";
-            using var writer = new StreamWriter(response.OutputStream, Encoding.UTF8);
-            writer.Write(message);
-            writer.Flush();
+            response.ContentType = contentType ?? "text/plain; charset=utf-8";
+
+            if(body != null && body.Length > 0)
+            {
+                response.ContentLength64 = body.Length;
+                response.OutputStream.Write(body, 0, body.Length);
+            }
+            response.OutputStream.Close();
+
         }
 
 

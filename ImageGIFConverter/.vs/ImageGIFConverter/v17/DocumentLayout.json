@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\FAKS\\Sistemsko programiranje\\gif-converter-proj\\ImageGIFConverter\\",
+  "WorkspaceRootPath": "C:\\FAKS\\gif-converter-proj\\ImageGIFConverter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C0A9E95E-500C-4492-8517-D29926259BAB}|ImageGIFConverter\\ImageGIFConverter.csproj|c:\\faks\\sistemsko programiranje\\gif-converter-proj\\imagegifconverter\\imagegifconverter\\webserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C0A9E95E-500C-4492-8517-D29926259BAB}|ImageGIFConverter\\ImageGIFConverter.csproj|c:\\faks\\gif-converter-proj\\imagegifconverter\\imagegifconverter\\webserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0A9E95E-500C-4492-8517-D29926259BAB}|ImageGIFConverter\\ImageGIFConverter.csproj|solutionrelative:imagegifconverter\\webserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0A9E95E-500C-4492-8517-D29926259BAB}|ImageGIFConverter\\ImageGIFConverter.csproj|c:\\faks\\sistemsko programiranje\\gif-converter-proj\\imagegifconverter\\imagegifconverter\\cache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0A9E95E-500C-4492-8517-D29926259BAB}|ImageGIFConverter\\ImageGIFConverter.csproj|solutionrelative:imagegifconverter\\cache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0A9E95E-500C-4492-8517-D29926259BAB}|ImageGIFConverter\\ImageGIFConverter.csproj|c:\\faks\\gif-converter-proj\\imagegifconverter\\imagegifconverter\\imagegifconverter.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C0A9E95E-500C-4492-8517-D29926259BAB}|ImageGIFConverter\\ImageGIFConverter.csproj|solutionrelative:imagegifconverter\\imagegifconverter.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0A9E95E-500C-4492-8517-D29926259BAB}|ImageGIFConverter\\ImageGIFConverter.csproj|c:\\faks\\sistemsko programiranje\\gif-converter-proj\\imagegifconverter\\imagegifconverter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0A9E95E-500C-4492-8517-D29926259BAB}|ImageGIFConverter\\ImageGIFConverter.csproj|solutionrelative:imagegifconverter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0A9E95E-500C-4492-8517-D29926259BAB}|ImageGIFConverter\\ImageGIFConverter.csproj|c:\\faks\\sistemsko programiranje\\gif-converter-proj\\imagegifconverter\\imagegifconverter\\gifservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C0A9E95E-500C-4492-8517-D29926259BAB}|ImageGIFConverter\\ImageGIFConverter.csproj|c:\\faks\\gif-converter-proj\\imagegifconverter\\imagegifconverter\\gifservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0A9E95E-500C-4492-8517-D29926259BAB}|ImageGIFConverter\\ImageGIFConverter.csproj|solutionrelative:imagegifconverter\\gifservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0A9E95E-500C-4492-8517-D29926259BAB}|ImageGIFConverter\\ImageGIFConverter.csproj|c:\\faks\\sistemsko programiranje\\gif-converter-proj\\imagegifconverter\\imagegifconverter\\imagegifconverter.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C0A9E95E-500C-4492-8517-D29926259BAB}|ImageGIFConverter\\ImageGIFConverter.csproj|solutionrelative:imagegifconverter\\imagegifconverter.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{C0A9E95E-500C-4492-8517-D29926259BAB}|ImageGIFConverter\\ImageGIFConverter.csproj|c:\\faks\\gif-converter-proj\\imagegifconverter\\imagegifconverter\\cache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0A9E95E-500C-4492-8517-D29926259BAB}|ImageGIFConverter\\ImageGIFConverter.csproj|solutionrelative:imagegifconverter\\cache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0A9E95E-500C-4492-8517-D29926259BAB}|ImageGIFConverter\\ImageGIFConverter.csproj|c:\\faks\\gif-converter-proj\\imagegifconverter\\imagegifconverter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0A9E95E-500C-4492-8517-D29926259BAB}|ImageGIFConverter\\ImageGIFConverter.csproj|solutionrelative:imagegifconverter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,64 +34,65 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Cache.cs",
-              "DocumentMoniker": "C:\\FAKS\\Sistemsko programiranje\\gif-converter-proj\\ImageGIFConverter\\ImageGIFConverter\\Cache.cs",
+              "DocumentMoniker": "C:\\FAKS\\gif-converter-proj\\ImageGIFConverter\\ImageGIFConverter\\Cache.cs",
               "RelativeDocumentMoniker": "ImageGIFConverter\\Cache.cs",
-              "ToolTip": "C:\\FAKS\\Sistemsko programiranje\\gif-converter-proj\\ImageGIFConverter\\ImageGIFConverter\\Cache.cs",
+              "ToolTip": "C:\\FAKS\\gif-converter-proj\\ImageGIFConverter\\ImageGIFConverter\\Cache.cs",
               "RelativeToolTip": "ImageGIFConverter\\Cache.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAowBwAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-26T10:28:09.425Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "GIFService.cs",
-              "DocumentMoniker": "C:\\FAKS\\Sistemsko programiranje\\gif-converter-proj\\ImageGIFConverter\\ImageGIFConverter\\GIFService.cs",
+              "DocumentMoniker": "C:\\FAKS\\gif-converter-proj\\ImageGIFConverter\\ImageGIFConverter\\GIFService.cs",
               "RelativeDocumentMoniker": "ImageGIFConverter\\GIFService.cs",
-              "ToolTip": "C:\\FAKS\\Sistemsko programiranje\\gif-converter-proj\\ImageGIFConverter\\ImageGIFConverter\\GIFService.cs",
+              "ToolTip": "C:\\FAKS\\gif-converter-proj\\ImageGIFConverter\\ImageGIFConverter\\GIFService.cs",
               "RelativeToolTip": "ImageGIFConverter\\GIFService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAowCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-25T11:53:12.729Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "ImageGIFConverter.csproj",
-              "DocumentMoniker": "C:\\FAKS\\Sistemsko programiranje\\gif-converter-proj\\ImageGIFConverter\\ImageGIFConverter\\ImageGIFConverter.csproj",
+              "DocumentMoniker": "C:\\FAKS\\gif-converter-proj\\ImageGIFConverter\\ImageGIFConverter\\ImageGIFConverter.csproj",
               "RelativeDocumentMoniker": "ImageGIFConverter\\ImageGIFConverter.csproj",
-              "ToolTip": "C:\\FAKS\\Sistemsko programiranje\\gif-converter-proj\\ImageGIFConverter\\ImageGIFConverter\\ImageGIFConverter.csproj",
+              "ToolTip": "C:\\FAKS\\gif-converter-proj\\ImageGIFConverter\\ImageGIFConverter\\ImageGIFConverter.csproj",
               "RelativeToolTip": "ImageGIFConverter\\ImageGIFConverter.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-25T11:20:00.061Z"
+              "WhenOpened": "2025-09-25T11:20:00.061Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "WebServer.cs",
-              "DocumentMoniker": "C:\\FAKS\\Sistemsko programiranje\\gif-converter-proj\\ImageGIFConverter\\ImageGIFConverter\\WebServer.cs",
+              "DocumentMoniker": "C:\\FAKS\\gif-converter-proj\\ImageGIFConverter\\ImageGIFConverter\\WebServer.cs",
               "RelativeDocumentMoniker": "ImageGIFConverter\\WebServer.cs",
-              "ToolTip": "C:\\FAKS\\Sistemsko programiranje\\gif-converter-proj\\ImageGIFConverter\\ImageGIFConverter\\WebServer.cs",
+              "ToolTip": "C:\\FAKS\\gif-converter-proj\\ImageGIFConverter\\ImageGIFConverter\\WebServer.cs",
               "RelativeToolTip": "ImageGIFConverter\\WebServer.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAswH8AAABWAAAAAAAAAA==",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAowHIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-25T10:44:33.599Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\FAKS\\Sistemsko programiranje\\gif-converter-proj\\ImageGIFConverter\\ImageGIFConverter\\Program.cs",
+              "DocumentMoniker": "C:\\FAKS\\gif-converter-proj\\ImageGIFConverter\\ImageGIFConverter\\Program.cs",
               "RelativeDocumentMoniker": "ImageGIFConverter\\Program.cs",
-              "ToolTip": "C:\\FAKS\\Sistemsko programiranje\\gif-converter-proj\\ImageGIFConverter\\ImageGIFConverter\\Program.cs",
+              "ToolTip": "C:\\FAKS\\gif-converter-proj\\ImageGIFConverter\\ImageGIFConverter\\Program.cs",
               "RelativeToolTip": "ImageGIFConverter\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-25T10:42:15.024Z",
               "EditorCaption": ""

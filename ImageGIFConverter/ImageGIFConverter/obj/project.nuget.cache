@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iqLkbhIunBg=",
+  "dgSpecHash": "+xMqz9B4a9U=",
   "success": true,
-  "projectFilePath": "C:\\FAKS\\Sistemsko programiranje\\gif-converter-proj\\ImageGIFConverter\\ImageGIFConverter\\ImageGIFConverter.csproj",
+  "projectFilePath": "C:\\FAKS\\gif-converter-proj\\ImageGIFConverter\\ImageGIFConverter\\ImageGIFConverter.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dimic\\.nuget\\packages\\sixlabors.imagesharp\\3.1.11\\sixlabors.imagesharp.3.1.11.nupkg.sha512"
   ],

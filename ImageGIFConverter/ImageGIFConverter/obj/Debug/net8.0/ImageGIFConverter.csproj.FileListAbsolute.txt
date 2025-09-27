@@ -15,3 +15,21 @@ C:\FAKS\Sistemsko programiranje\gif-converter-proj\ImageGIFConverter\ImageGIFCon
 C:\FAKS\Sistemsko programiranje\gif-converter-proj\ImageGIFConverter\ImageGIFConverter\obj\Debug\net8.0\ImageGIFConverter.pdb
 C:\FAKS\Sistemsko programiranje\gif-converter-proj\ImageGIFConverter\ImageGIFConverter\obj\Debug\net8.0\ImageGIFConverter.genruntimeconfig.cache
 C:\FAKS\Sistemsko programiranje\gif-converter-proj\ImageGIFConverter\ImageGIFConverter\obj\Debug\net8.0\ref\ImageGIFConverter.dll
+C:\FAKS\gif-converter-proj\ImageGIFConverter\ImageGIFConverter\bin\Debug\net8.0\ImageGIFConverter.exe
+C:\FAKS\gif-converter-proj\ImageGIFConverter\ImageGIFConverter\bin\Debug\net8.0\ImageGIFConverter.deps.json
+C:\FAKS\gif-converter-proj\ImageGIFConverter\ImageGIFConverter\bin\Debug\net8.0\ImageGIFConverter.runtimeconfig.json
+C:\FAKS\gif-converter-proj\ImageGIFConverter\ImageGIFConverter\bin\Debug\net8.0\ImageGIFConverter.dll
+C:\FAKS\gif-converter-proj\ImageGIFConverter\ImageGIFConverter\bin\Debug\net8.0\ImageGIFConverter.pdb
+C:\FAKS\gif-converter-proj\ImageGIFConverter\ImageGIFConverter\bin\Debug\net8.0\SixLabors.ImageSharp.dll
+C:\FAKS\gif-converter-proj\ImageGIFConverter\ImageGIFConverter\obj\Debug\net8.0\ImageGIFConverter.csproj.AssemblyReference.cache
+C:\FAKS\gif-converter-proj\ImageGIFConverter\ImageGIFConverter\obj\Debug\net8.0\ImageGIFConverter.GeneratedMSBuildEditorConfig.editorconfig
+C:\FAKS\gif-converter-proj\ImageGIFConverter\ImageGIFConverter\obj\Debug\net8.0\ImageGIFConverter.AssemblyInfoInputs.cache
+C:\FAKS\gif-converter-proj\ImageGIFConverter\ImageGIFConverter\obj\Debug\net8.0\ImageGIFConverter.AssemblyInfo.cs
+C:\FAKS\gif-converter-proj\ImageGIFConverter\ImageGIFConverter\obj\Debug\net8.0\ImageGIFConverter.csproj.CoreCompileInputs.cache
+C:\FAKS\gif-converter-proj\ImageGIFConverter\ImageGIFConverter\obj\Debug\net8.0\ImageGIFConverter.sourcelink.json
+C:\FAKS\gif-converter-proj\ImageGIFConverter\ImageGIFConverter\obj\Debug\net8.0\ImageGIF.3CD21397.Up2Date
+C:\FAKS\gif-converter-proj\ImageGIFConverter\ImageGIFConverter\obj\Debug\net8.0\ImageGIFConverter.dll
+C:\FAKS\gif-converter-proj\ImageGIFConverter\ImageGIFConverter\obj\Debug\net8.0\refint\ImageGIFConverter.dll
+C:\FAKS\gif-converter-proj\ImageGIFConverter\ImageGIFConverter\obj\Debug\net8.0\ImageGIFConverter.pdb
+C:\FAKS\gif-converter-proj\ImageGIFConverter\ImageGIFConverter\obj\Debug\net8.0\ImageGIFConverter.genruntimeconfig.cache
+C:\FAKS\gif-converter-proj\ImageGIFConverter\ImageGIFConverter\obj\Debug\net8.0\ref\ImageGIFConverter.dll

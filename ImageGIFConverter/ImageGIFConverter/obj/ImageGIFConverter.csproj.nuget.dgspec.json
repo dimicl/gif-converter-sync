@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\FAKS\\Sistemsko programiranje\\gif-converter-proj\\ImageGIFConverter\\ImageGIFConverter\\ImageGIFConverter.csproj": {}
+    "C:\\FAKS\\gif-converter-proj\\ImageGIFConverter\\ImageGIFConverter\\ImageGIFConverter.csproj": {}
   },
   "projects": {
-    "C:\\FAKS\\Sistemsko programiranje\\gif-converter-proj\\ImageGIFConverter\\ImageGIFConverter\\ImageGIFConverter.csproj": {
+    "C:\\FAKS\\gif-converter-proj\\ImageGIFConverter\\ImageGIFConverter\\ImageGIFConverter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\FAKS\\Sistemsko programiranje\\gif-converter-proj\\ImageGIFConverter\\ImageGIFConverter\\ImageGIFConverter.csproj",
+        "projectUniqueName": "C:\\FAKS\\gif-converter-proj\\ImageGIFConverter\\ImageGIFConverter\\ImageGIFConverter.csproj",
         "projectName": "ImageGIFConverter",
-        "projectPath": "C:\\FAKS\\Sistemsko programiranje\\gif-converter-proj\\ImageGIFConverter\\ImageGIFConverter\\ImageGIFConverter.csproj",
+        "projectPath": "C:\\FAKS\\gif-converter-proj\\ImageGIFConverter\\ImageGIFConverter\\ImageGIFConverter.csproj",
         "packagesPath": "C:\\Users\\dimic\\.nuget\\packages\\",
-        "outputPath": "C:\\FAKS\\Sistemsko programiranje\\gif-converter-proj\\ImageGIFConverter\\ImageGIFConverter\\obj\\",
+        "outputPath": "C:\\FAKS\\gif-converter-proj\\ImageGIFConverter\\ImageGIFConverter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
