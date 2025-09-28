@@ -7,6 +7,7 @@ using System.IO;
 using System.Net;
 using System.Text;
 using static System.Net.Mime.MediaTypeNames;
+using System.Collections.Concurrent;
 
 namespace ImageGIF
 {
@@ -17,6 +18,7 @@ namespace ImageGIF
         private HttpListener? _listener;
         private readonly GIFService _gifService;
         private readonly Cache _cache;
+        private readonly ConcurrentDictionary<string, object> _fileLocks = new();
 
         public WebServer(string prefix, string rootDir)
         {
@@ -80,37 +82,41 @@ namespace ImageGIF
 
 
             string filePath = Path.Combine(_rootDir, relativePath);
+            var fileLock = _fileLocks.GetOrAdd(filePath, _ => new object());
 
-            if (!File.Exists(filePath))
+            lock (fileLock)
             {
-                Respond(response, 404, "Fajl nije pronadjen");
-                return;
+                if (!File.Exists(filePath))
+                {
+                    Respond(response, 404, "Fajl nije pronadjen");
+                    return;
+                }
+
+                if (_cache.TryGet(filePath, out var cached))
+                {
+                    Console.WriteLine($"[CACHE] {relativePath}");
+                    WriteResponse(response, cached.StatusCode, cached.ContentType, cached.Body);
+                    return;
+
+                }
+
+                try
+                {
+                    using var ms = new MemoryStream();
+                    _gifService.CreateAnimatedGIF(filePath, ms, 10, 50);
+                    byte[] gifBytes = ms.ToArray();
+
+                    _cache.Set(filePath, 200, "image/gif", gifBytes);
+
+                    WriteResponse(response, 200, "image/gif", gifBytes);
+                    Console.WriteLine($"[OK] Procesuirano {relativePath} kao GIF");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Greska: {ex.Message}");
+                    Respond(response, 500, "Greska prilikom proceusiranja");
+                }
             }
-
-            if(_cache.TryGet(filePath, out var cached))
-            {
-                Console.WriteLine($"[CACHE] {relativePath}");                
-                WriteResponse(response, cached.StatusCode, cached.ContentType, cached.Body);
-                return;
-
-            }
-
-            try
-            {
-                using var ms = new MemoryStream();
-                _gifService.CreateAnimatedGIF(filePath, ms, 10, 50);
-                byte[] gifBytes = ms.ToArray();
-
-                _cache.Set(filePath, 200, "image/gif", gifBytes);
-                
-                WriteResponse(response, 200, "image/gif", gifBytes);
-                Console.WriteLine($"[OK] Procesuirano {relativePath} kao GIF");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Greska: {ex.Message}");
-                Respond(response, 500, "Greska prilikom proceusiranja");
-            }            
         }
 
         private void Respond(HttpListenerResponse response, int code, string message)
